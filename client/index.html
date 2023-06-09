@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>My Assessment </h1>
+    <div id = buttons>
+      <button id="complimentButton">Get a compliment</button>
+      <button id="fortuneBtn">Learn your fortune</button>
+    </div>
+  </header>
+  <main>
+  <section  id="posters">
+    <button id="mtvtBtn">Get Motivated</button>
+    <form id="createPoster">
+      <p>Customize a Poster!</p>
+      <input placeholder="Poster Title" id="title"/>
+      <input placeholder="Add an img url" id="imageURL">
+      <input  id ="addPoster" type="submit">
+    </form>
+  </section>
+<section id="new-poster">
+  <ul></ul>
+</section>
+<section id="day-counter">
+  <p>Days Until Project Due:</p>
+  <div id="theCounter">
+    <button class="minus">-</button>
+    <p name= "counter">()</p>
+    <button class="plus">+</button>
+  </div>
+</section>
+  </main>
+  
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
